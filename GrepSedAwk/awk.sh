@@ -1,3 +1,7 @@
+# Syntax
+awk '/search pattern1/ {Actions}
+     /search pattern2/ {Actions}' file
+
 # NF, number of fields, "," for concatenation
 awk 'NF != 4 {print "Not all scores are available for", $1}' # stdin
 
