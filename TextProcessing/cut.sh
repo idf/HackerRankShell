@@ -1,6 +1,6 @@
 # index start from 1, range inclusive
 
-# file column
+# file character
 cut -c3
 cut -c2,7
 cut -c2-7  # range inclusive
